@@ -115,6 +115,18 @@ h1 {
   margin-left: -1%;
 }
 
+@media (max-width: 650px){
+  .header__container{
+    margin-top: 13%;
+  }
+}
+
+@media (max-width: 360px){
+  .header__container{
+    margin-top: 13%;
+  }
+}
+
 #tituloPrincipal {
   margin-top: -13%;
   @if ($color2 == gris){
@@ -303,6 +315,18 @@ section {
   text-decoration-color: $color-principal;
 }
 
+@media (max-width: 400px){
+  #tituloPrincipal{
+    margin-top: 13%;
+  }
+}
+
+@media (max-width: 850px){
+  #tituloPrincipal{
+    margin-top: 8%;
+  }
+}
+
 .local__subtitulo {
   letter-spacing: 3px;
   text-align: center;
@@ -320,7 +344,6 @@ section {
   border-radius: 18px;
   background-color: $color-principal;
   padding: 50px;
-  width: 40%;
   text-align: center;
 }
 
@@ -370,18 +393,18 @@ form {
 }
 
 .comentarios {
-  margin-left: -48%;
+  margin-left: -75%;
   font-weight: bold;
 }
 
 .nombre,
 .apellido {
-  margin-left: -85%;
+  margin-left: -92%;
   font-weight: bold;
 }
 
 .email {
-  margin-left: -90%;
+  margin-left: -94%;
   font-weight: bold;
 }
 
