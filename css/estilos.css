@@ -45,6 +45,10 @@ li {
   margin-left: 2%;
   margin-top: 1vh; }
 
+@media (max-width: 990px) {
+  .logo {
+    margin-top: -18%; } }
+
 #formFooter {
   float: right; }
 
@@ -79,6 +83,12 @@ section {
 h1 {
   text-align: center; }
 
+@media (max-width: 500px) {
+  #tituloNosotros,
+  #tituloProductos,
+  #tituloLocales {
+    font-size: 7vw !important; } }
+
 /* Inicio */
 .header__container {
   margin-left: -1%; }
@@ -87,9 +97,9 @@ h1 {
   .header__container {
     margin-top: 13%; } }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
   .header__container {
-    margin-top: 13%; } }
+    margin-top: 14%; } }
 
 #tituloPrincipal {
   margin-top: -13%;
@@ -113,6 +123,15 @@ h1 {
   font-size: 1.5vw;
   margin-bottom: -2%; }
 
+@media (max-width: 400px) {
+  .seccionInicio__titulo {
+    font-size: 9vw !important;
+    margin-top: -5%; } }
+
+@media (max-width: 400px) {
+  .seccionInicio__subtitulo {
+    font-size: 4vw !important; } }
+
 #tituloPortada {
   font-family: "Anton", sans-serif;
   color: #fff59d;
@@ -121,6 +140,10 @@ h1 {
   text-align: left;
   margin-left: 2%;
   margin-top: 25%; }
+
+@media (max-width: 560px) {
+  #tituloPortada {
+    font-size: 4.5vw; } }
 
 #bloques {
   margin-bottom: 8%; }
@@ -158,6 +181,10 @@ section {
   width: 40vw;
   letter-spacing: 1px;
   border-top: solid 4px black; }
+
+@media (max-width: 500px) {
+  .seccionNosotros__parrafo {
+    width: 60vw; } }
 
 .card2 {
   background-color: #c5e1a5 !important; }
