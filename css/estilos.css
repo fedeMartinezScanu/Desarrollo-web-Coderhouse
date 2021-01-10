@@ -302,6 +302,21 @@ section {
   padding: 50px;
   text-align: center; }
 
+@media (max-width: 990px) {
+  .seccionContacto {
+    margin-bottom: 10% !important; } }
+
+@media (max-width: 555px) {
+  .seccionContacto {
+    margin-bottom: 10% !important;
+    margin-top: 10% !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important; } }
+
+@media (max-width: 382px) {
+  .seccionContacto {
+    margin-bottom: 30% !important; } }
+
 label {
   color: black; }
 
@@ -342,6 +357,10 @@ form {
 .comentarios {
   margin-left: -75%;
   font-weight: bold; }
+
+@media (max-width: 555px) {
+  .comentarios {
+    margin-left: 1%; } }
 
 .nombre,
 .apellido {
