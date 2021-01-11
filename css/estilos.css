@@ -83,6 +83,13 @@ section {
 h1 {
   text-align: center; }
 
+@media (max-width: 768px) {
+  #tituloNosotros,
+  #tituloProductos,
+  #tituloLocales {
+    margin-top: 22% !important;
+    font-size: 7vw !important; } }
+
 @media (max-width: 500px) {
   #tituloNosotros,
   #tituloProductos,
@@ -104,6 +111,10 @@ h1 {
 #tituloPrincipal {
   margin-top: -13%;
   background-color: ghostwhite; }
+
+@media (max-width: 768px) {
+  #tituloPrincipal {
+    margin-top: -15% !important; } }
 
 .seccionInicio__titulo {
   text-align: center;
@@ -182,6 +193,13 @@ section {
   letter-spacing: 1px;
   border-top: solid 4px black; }
 
+@media (max-width: 768px) {
+  .seccionNosotros__parrafo {
+    width: 65vw;
+    margin-top: 2%;
+    margin-left: -2%;
+    font-size: 1.3rem; } }
+
 @media (max-width: 500px) {
   .seccionNosotros__parrafo {
     width: 60vw; } }
@@ -215,6 +233,20 @@ section {
 .contenedor5__img {
   height: 45vh; }
 
+@media (max-width: 768px) {
+  .contenedor1__img,
+  .contenedor2__img,
+  .contenedor3__img,
+  .contenedor4__img,
+  .contenedor5__img {
+    width: 50vw !important;
+    height: 40vh !important; } }
+
+@media (max-width: 768px) {
+  .contenedor2__img,
+  .contenedor4__img {
+    margin-left: -50% !important; } }
+
 #tituloProductos {
   font-family: "Anton", sans-serif;
   text-align: center;
@@ -241,6 +273,11 @@ section {
   margin-bottom: 2% !important;
   text-decoration-line: overline; }
 
+@media (max-width: 768px) {
+  .contenedor2__caramel,
+  .contenedor4__latte {
+    margin-left: -25%; } }
+
 .contenedor1__parrafo,
 .contenedor2__parrafo,
 .contenedor3__parrafo,
@@ -251,6 +288,19 @@ section {
   font-weight: bold;
   line-height: 32px;
   margin-left: 12%; }
+
+@media (max-width: 768px) {
+  .contenedor1__parrafo,
+  .contenedor3__parrafo,
+  .contenedor5__parrafo {
+    width: 70% !important;
+    margin-left: 30% !important; } }
+
+@media (max-width: 768px) {
+  .contenedor2__parrafo,
+  .contenedor4__parrafo {
+    width: 78% !important;
+    margin-left: -2%; } }
 
 .contenedor2,
 .contenedor4 {
@@ -306,6 +356,11 @@ section {
   .seccionContacto {
     margin-bottom: 10% !important; } }
 
+@media (max-width: 768px) {
+  .seccionContacto {
+    margin-bottom: -20% !important;
+    margin-top: 15% !important; } }
+
 @media (max-width: 555px) {
   .seccionContacto {
     margin-bottom: 10% !important;
@@ -357,6 +412,10 @@ form {
 .comentarios {
   margin-left: -75%;
   font-weight: bold; }
+
+@media (max-width: 768px) {
+  .comentarios {
+    margin-left: -65%; } }
 
 @media (max-width: 555px) {
   .comentarios {
